@@ -68,7 +68,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'djangocrud.wsgi.application'
+WSGI_APPLICATION = 'djangoattemp2.wsgi.application'
 
 
 # Database
