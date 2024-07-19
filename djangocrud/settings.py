@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-u%j(@*msssk_k%(^@%(ls+5cxelgq5%6ek61i*cp57*7=9jacr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['djangoattemp2ariascabrera.us-east-1.elasticbeanstalk.com']
 
 
 # Application definition
@@ -79,7 +79,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'tasksdb',
         'USER': 'root',
-        'PASSWORD': '',
+        'PASSWORD': '12345678',
         'HOST': 'localhost',
         'PORT': '3306',
     }
